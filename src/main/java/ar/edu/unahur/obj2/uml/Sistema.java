@@ -33,7 +33,7 @@ public class Sistema {
         Alquiler alquiler = new Alquiler (fechaInicio, fechaFin, usuario, vehiculo); //creando el objeto Alquiler con los datos recibidos como parametros para el metodo
         vehiculo.cambiarDisponible(false); //el vehiculo de la lista del sistema pasa a estar no disponible
         this.alquileres.add(alquiler); //agregamos a a la lista del sistema el nuevo objeto alquiler originado en este metodo
-        
+        usuario.agregarAlquiler(alquiler); //agregamos a la lista de alquileres del usuario el nuevo objeto alquiler originado en este metodo
         return alquiler; // debemos retornar porque así lo programamos
     }
 

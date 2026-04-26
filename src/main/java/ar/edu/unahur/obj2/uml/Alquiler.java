@@ -1,6 +1,5 @@
 package ar.edu.unahur.obj2.uml;
 
-import java.time.LocalDate;
 
 public class Alquiler {
 
@@ -43,4 +42,3 @@ public class Alquiler {
     }
 }
  
-}
